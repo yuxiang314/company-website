@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科技企业官网 - 作品展示</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <span>TECH</span>NOVA
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="portfolio.html">作品展示</a></li>
+                    <li><a href="contact.html">资讯&联系</a></li>
+                </ul>
+                <div class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="portfolio-header">
+        <div class="container">
+            <h1>作品展示</h1>
+            <p>探索我们的精选项目和成功案例</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">图片展示</h2>
+            <p class="section-subtitle">精选项目图片集</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/yy.png" alt="东莞中医院">
+                    <div class="overlay">东莞中医院</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/xx.png" alt="东莞学校">
+                    <div class="overlay">东莞学校</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/sz.png" alt="市政道路">
+                    <div class="overlay">市政道路</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/xq.png" alt="住宅小区">
+                    <div class="overlay">住宅小区</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/lh.png" alt="园林绿化">
+                    <div class="overlay">园林绿化</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cf.png" alt="工业厂房">
+                    <div class="overlay">工业厂房</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">视频展示</h2>
+            <p class="section-subtitle">项目演示视频</p>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
+                <div class="video-info">
+                    <h3>企业宣传片</h3>
+                    <p>了解我们的企业理念和核心业务，探索科技创新的无限可能。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">首页</a>
+                <a href="portfolio.html">作品展示</a>
+                <a href="contact.html">资讯&联系</a>
+            </div>
+            <p>&copy; 2024 TechNova. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="放大图片">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
